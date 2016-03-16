@@ -32,3 +32,11 @@ A few more details can be found in the [forum](http://support.hogbaysoftware.com
 - renamed the deprecated **user.less** filename to new **theme.less**
 - updated the handle tints to be in line with TP3 release style of tinting dim when not collapsed. Made even dimmer than original tint to be as distinct as possible from collapsed handles, yet still visible.
 - borrowed the cleaner handle idea from [theme-notes-first](https://github.com/pascallaliberte/theme-notes-first) to make them invisible when there are no sub-tasks or sub-notes.
+
+## Installation
+
+Backup then replace the **theme.less** file located at:
+
+  ~/Application Support/TaskPaper/
+
+> NOTE: You can easily get to this folder location from the TaskPaper File menu > Open Application Folder.
