@@ -1,3 +1,4 @@
+// See http://guide.taskpaper.com/creating_themes.html to get started.
 // Base -----------------------------------
 @base-font-size: 16;
 @user-font-size: $USER_FONT_SIZE;
@@ -57,6 +58,21 @@ item[data-type="task"] {
 item[data-type="note"] {
     font-style: italic;
     color: @mono-2;
+}
+// atom-one-dark riff on TP3 release style to dim handles when not collapsed.
+item {
+  handle-color: @invisibles-color;
+}
+item[collapsed] {
+  handle-color: #FFF;
+}
+// borrowed idea from https://github.com/pascallaliberte/theme-notes-first to hide handles when there are no sub-tasks/sub-notes.
+item[leaf] {
+  handle-color: clear;
+}
+
+item[empty] {
+  handle-color: clear;
 }
 
 // Tag styles -----------------------------------
