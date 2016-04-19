@@ -2,7 +2,7 @@
 
 A dark theme for [TaskPaper 3](http://taskpaper.com) heavily inspired by @pslobo's excellent adaptation of (stolen from) [Atom One Dark Syntax](https://github.com/atom/one-dark-syntax).
 
-![](https://raw.githubusercontent.com/pslobo/TaskPaper-Atom-One-Dark/master/Preview.png)
+![](https://raw.githubusercontent.com/jasonshanks/TaskPaper-Atom-One-Dark/master/Preview.png)
 
 ## Colours/Colors
 
