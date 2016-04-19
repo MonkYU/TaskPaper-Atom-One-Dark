@@ -56,7 +56,7 @@ Backup then replace the **theme.less** file located at:
   - item-handle-size, guide-line width, paragraph-spacing-before(after)
   - updated deprecated ```display``` label to ```content```
 - reintegrated additional Atom One Dark styles of syntax-saturation, syntax-brightness, mono-2
-- swapped Project and Tag colors (not a fan of Orange, but true to Atom One Dark it is heavily used as a function or variable color.)
+- swapped Project and Tag colors (not a fan of Orange, but true to Atom One Dark it is heavily used as a function or value color.)
 - changed tint of guides and invisibles to malibu blue.
 - found content uses for 2 unused colours.
 - swapped a few other colours around to my personal preference.
