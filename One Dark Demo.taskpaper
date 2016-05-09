@@ -1,0 +1,25 @@
+Adventuring-Part 1:
+	- Go North. @due
+	- Go North again to Forest Path. @next
+	- Go up the tree. 
+	- Get the Jewelled Egg. @high
+		This is an important step! I like notes in smaller type, especially so they're not so overwhelming when they get long.
+	- Go down, then north again to clearing.
+	- Get Leaves @search
+		reveals the grating.
+	- Drop the leaves @whatevs
+	- Go East, South, West to Behind the House.
+	- Open window, enter kitchen @today
+	Part 1b:
+		- Open sack, get garlic @today
+		- Go West into Living Room, drop garlic, get lamp @waiting
+		Part 1c:
+			- Go East to kitchen, up to the attic. @context(alert)
+			- Turn on lamp before the Grue eats you! @priority(high)
+			- Get knife, rope.
+			Part 1d:
+				- Go back down.
+				- turn off lamp @flag
+				- Go East.
+				- Drop knife, rope.
+				- Put Egg in Trophy Case. @done(2016-04-20)
