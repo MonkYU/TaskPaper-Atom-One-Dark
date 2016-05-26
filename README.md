@@ -45,7 +45,7 @@ Backup then replace the **theme.less** file located at:
 
 2016-05-26:
 
-- added new handle styles from 3.3 (this has re-introduced handle styles for items without children which I'm not keen on, looking into a fix.)
+- added new handle styles from 3.3
 - reduced the brightness of collapsed handles to project color as I think they stand out with the new style possibilities.
 - matched filtered handle style to the default tag color (and improved the less syntax by consolidating under @tag-color)
 
