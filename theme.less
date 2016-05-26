@@ -32,9 +32,10 @@
 @tint-color: @color2;
 @interface-color: @tint-color;
 @selection-color: mix(@text-color, @bg-color, 5%);
-@invisibles-color: fade(@tint-color, 30%);
+@invisibles-color: fade(@tint-color, 50%);
 @guide-color: darken(@mono-1, 26%);
 @message-color: mix(@text-color, @bg-color, 50%);
+@tag-color: fade(@color7, 80%);
 editor {
     color: @text-color;
     font-size: @user-font-size;
@@ -89,20 +90,27 @@ item[data-type="note"] {
     font-size: 14;
     color: @mono-3;
 }
-// atom-one-dark riff on TP3 release style to dim handles when not collapsed.
+
+// Handle styles -----------------------------------
 item {
-  handle-color: @invisibles-color;
+  handle-color: none;
+  handle-border-color: @invisibles-color;
+  handle-border-width: floor(1 * @ui-scale);
+
 }
 item[collapsed] {
-  handle-color: #FFF;
+  handle-color: @color2;
+  handle-border-color: none;
 }
-// borrowed idea from https://github.com/pascallaliberte/theme-notes-first to hide handles when there are no sub-tasks/sub-notes. UPDATE: this is now a TP3 theme default.
-item[leaf] {
-  handle-color: clear;
+
+item[filtered] {
+  handle-color: @tag-color;
+  handle-border-color: none;
 }
 
 item[empty] {
-  handle-color: clear;
+  handle-color: none;
+  handle-border-color: none;
 }
 
 // Tag styles -----------------------------------
@@ -166,7 +174,7 @@ item[data-search] {
     font-size: @user-font-size;
     font-style: normal;
     font-weight: normal;
-    color: fade(@mono-1, 40%);
+    color: fade(@mono-1, 20%);
     > run[tag] {
         color: fade(@mono-1, 20%);
     }
@@ -197,5 +205,5 @@ run[tag] {
     font-size: @user-font-size;
     font-style: normal;
     font-weight: normal;
-    color: fade(@color7, 80%);
+    color: @tag-color;
 }

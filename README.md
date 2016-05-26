@@ -1,6 +1,6 @@
 # Atom One Dark 2 for TaskPaper 3
 
-A dark theme for [TaskPaper 3](http://taskpaper.com) heavily inspired by @pslobo's excellent adaptation of (stolen from[his words]) [Atom One Dark Syntax](https://github.com/atom/one-dark-syntax), which in turn I belive was heavily influenced by the now infamous [2006 Monokai theme for Textmate by Wimer Hazenberg](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).
+A dark theme for [TaskPaper 3](http://taskpaper.com) heavily inspired by @pslobo's excellent adaptation of (stolen from[his words]) [Atom One Dark Syntax](https://github.com/atom/one-dark-syntax), which in turn I believe was heavily influenced by the now infamous [2006 Monokai theme for Textmate by Wimer Hazenberg](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).
 
 ![](https://raw.githubusercontent.com/jasonshanks/TaskPaper-Atom-One-Dark/master/Preview.png)
 
@@ -43,12 +43,11 @@ Backup then replace the **theme.less** file located at:
 
 ## RELEASE NOTES
 
-2016-03-17:
+2016-05-26:
 
-- forked from @pslobo's excellent code heist!
-- renamed the deprecated **user.less** filename to new **theme.less**
-- updated the handle tints to be in line with TP3 release style of tinting dim when not collapsed.
-- borrowed the cleaner handle idea from [theme-notes-first](https://github.com/pascallaliberte/theme-notes-first) to make them invisible when there are no sub-tasks or sub-notes. [UPDATE: now a TP3 default style!]
+- added new handle styles from 3.3 (this has re-introduced handle styles for items without children which I'm not keen on, looking into a fix.)
+- reduced the brightness of collapsed handles to project color as I think they stand out with the new style possibilities.
+- matched filtered handle style to the default tag color (and improved the less syntax by consolidating under @tag-color)
 
 2016-04-20:
 
@@ -65,3 +64,10 @@ Backup then replace the **theme.less** file located at:
 - Enlarged top Project title font size
 - Expanded Project styles to 4 levels with gradually reducing color fade and type size.
 - Added additional tag names to related functions (active, now, hot, priority, due)
+
+2016-03-17:
+
+- forked from @pslobo's excellent code heist!
+- renamed the deprecated **user.less** filename to new **theme.less**
+- updated the handle tints to be in line with TP3 release style of tinting dim when not collapsed.
+- borrowed the cleaner handle idea from [theme-notes-first](https://github.com/pascallaliberte/theme-notes-first) to make them invisible when there are no sub-tasks or sub-notes. [UPDATE: now a TP3 default style!]
