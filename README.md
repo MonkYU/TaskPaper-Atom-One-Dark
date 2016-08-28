@@ -1,20 +1,20 @@
 # Atom One Dark 2 for TaskPaper 3
 
-A dark theme for [TaskPaper 3](http://taskpaper.com) heavily inspired by @pslobo's excellent adaptation of (stolen from[his words]) [Atom One Dark Syntax](https://github.com/atom/one-dark-syntax), which in turn I believe was heavily influenced by the now infamous [2006 Monokai theme for Textmate by Wimer Hazenberg](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).
+A dark theme for [TaskPaper 3](http://taskpaper.com) heavily inspired by @pslobo's excellent adaptation of [Atom One Dark Syntax](https://github.com/atom/one-dark-syntax), which in turn I believe was heavily influenced by the now infamous [2006 Monokai theme for Textmate by Wimer Hazenberg](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).
 
 ![](https://raw.githubusercontent.com/jasonshanks/TaskPaper-Atom-One-Dark/master/Preview.png)
 
 ## Colours/Colors
 
-- Fountain Blue for items tagged @next
-- Malibu Blue for URLs and Projects (gradually faded at each level)
-- Soft Purple for items tagged @waiting
-- Pistachio Green for items tagged @today, @active or @now (this is especially useful in conjunction with [this great script](http://support.hogbaysoftware.com/t/script-displaying-the-active-task-in-the-os-x-menu-bar/1290) by @complexpoint)
-- Froly Red for items tagged @due
-- Sunset Red for items tagged @flag, @high, @hot, @priority(high) or @prio(1)
-- Whisky Orange for vanilla tags
-- Faded Chalky Orange for context tags
-- Selection is a subtle mix of fore/background colors same as original One Dark Atom theme
+- _Fountain Blue_ for items tagged @next
+- _Malibu Blue_ for URLs and Projects (gradually faded from Project levels 1-4)
+- _Soft Purple_ for items tagged @waiting
+- _Pistachio Green_ for items tagged @today, @active or @now (this is especially useful in conjunction with [this great script](http://support.hogbaysoftware.com/t/script-displaying-the-active-task-in-the-os-x-menu-bar/1290) by @complexpoint)
+- _Froly Red_ for items tagged @due
+- _Sunset Red_ for items tagged @flag, @high, @hot, @priority(high) or @prio(1)
+- _Whisky Orange_ for vanilla tags
+- _Faded Chalky Orange_ for context tags
+- Text selections are a subtle mix of fore/background colors as in the original One Dark Atom theme
 
 ## Other Style Features
 
@@ -28,20 +28,47 @@ A dark theme for [TaskPaper 3](http://taskpaper.com) heavily inspired by @pslobo
 
 ## Installation
 
+Move the Atom-One-Dark-Blue.less file to:
+
+`~/Library/Application Support/TaskPaper/Stylesheets`
+
+> NOTE: From within TaskPaper you can open this folder location from the **Window** menu > **StyleSheet** > **Open StyleSheet Folder**.
+
+## Installation (prior to TaskPaper 3.5)
+
 Backup then replace the **theme.less** file located at:
 
-  ~/Application Support/TaskPaper/
+`~/Library/Application Support/TaskPaper/`
 
-> NOTE: You can easily get to this folder location from the TaskPaper File menu > **Open Application Folder**.
+> NOTE: You can easily get to this folder location from the TaskPaper File menu > **Open Application Folder**. ALSO NOTE: You will need to change the name to theme.less to be recognised by TP versions earlier than 3.5
 
 ## TODO
 
 - continue to update as TaskPaper theme styles change or expand
-- style the Sidebar if this becomes possible (white is really jarring against a dark theme, so I recommend hiding it and the Toolbar most of the time).
-- add subtle variation to Priority levels
+- create colour variations (first might re-instate Pedro's favoured Orange project titles)
 - add distinction between due and overdue?
 
+- add subtle variation to Priority levels @done
+
+- style the Sidebar if this becomes possible (white is really jarring against a dark theme, so I recommend hiding it and the Toolbar most of the time). @done
+
 ## RELEASE NOTES
+
+2016-08-29:
+
+Updated to reflect new naming & location conventions in TP 3.5 Preview:
+
+- updated README with new Installation instructions
+- added the newly referenced 'Dark Mode' appearance for the Sidebar and Titlebar – Yay! crossed a most-desired one off the TODO list :)
+- incorporated new 'prose-targeted' editor styles. (de-activated all but typewriter scrolling one though as it doesn't suit my purposes. Would make more sense with FoldingText. If any of these stick I imagine they would get toggled in actual in-app preference settings, in which case I'll re-enable all)
+
+Other tweaks:
+
+- named Atom-One-Dark-Blue in preparation for possible style variations.
+- soft-coded Project level tints & collapsed Handle-colors to make future style variations easier to implement.
+- added border-color to Collapsed and Filtered handles for consistent width.
+- reduced handle-border-width so they are more subtle when expanded.
+- brightened Caret color to be a bit more prevalent.
 
 2016-05-26:
 
@@ -51,10 +78,14 @@ Backup then replace the **theme.less** file located at:
 
 2016-04-20:
 
-- added new theme possibilities from 3.1 and 3.2
-  - item-handle-size, guide-line width, paragraph-spacing-before(after)
-  - updated deprecated ```display``` label to ```content```
+Added new theme possibilities from 3.1 and 3.2:
+
+- item-handle-size, guide-line width, paragraph-spacing-before(after)
+- updated deprecated `display` label to `content`
 - reintegrated additional Atom One Dark styles of syntax-saturation, syntax-brightness, mono-2
+
+Other tweaks:
+
 - swapped Project and Tag colors (not a fan of Orange, but true to Atom One Dark it is heavily used as a function or value color.)
 - changed tint of guides and invisibles to malibu blue.
 - found content uses for 2 unused colours.

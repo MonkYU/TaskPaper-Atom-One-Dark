@@ -36,6 +36,10 @@
 @guide-color: darken(@mono-1, 26%);
 @message-color: mix(@text-color, @bg-color, 50%);
 @tag-color: fade(@color7, 80%);
+
+window {
+  appearance: NSAppearanceNameVibrantDark;
+}
 editor {
     color: @text-color;
     font-size: @user-font-size;
@@ -53,6 +57,11 @@ editor {
     guide-line-width: 0.5;
     guide-line-color: @guide-color;
     message-color: @message-color;
+    // top-padding-percent: 25%; // Pad top of editor with 25% of viewport height
+    // bottom-padding-percent: 50%; // Pad bottom of editor with 25% of viewport height
+    // editor-wrap-to-column: 80; // Wrap editor text at 80 columns, center if extra space
+    // item-wrap-to-column: 60; // Wrap item text at 60 columns (smaller value them above means item text doesn't rewrap when item is indented
+    typewriter-scroll-percent: 50%; // Scroll edit location to 50% location in viewport when possible
 }
 item[depth=1][data-type=project] {
     font-weight: semi-bold;
@@ -100,12 +109,12 @@ item {
 }
 item[collapsed] {
   handle-color: @color2;
-  handle-border-color: none;
+  handle-border-color: @color2;
 }
 
 item[filtered] {
   handle-color: @tag-color;
-  handle-border-color: none;
+  handle-border-color: @tag-color;
 }
 
 item[empty] {
