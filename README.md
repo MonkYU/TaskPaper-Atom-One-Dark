@@ -1,6 +1,6 @@
 # Atom One Dark 2 for TaskPaper 3
 
-A dark theme for [TaskPaper 3](http://taskpaper.com) heavily inspired by @pslobo's excellent adaptation of [Atom One Dark Syntax](https://github.com/atom/one-dark-syntax), which in turn I believe was heavily influenced by the now infamous [2006 Monokai theme for Textmate by Wimer Hazenberg](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).
+A dark StyleSheet/Theme for [TaskPaper 3](http://taskpaper.com) heavily inspired by @pslobo's excellent adaptation of [Atom One Dark Syntax](https://github.com/atom/one-dark-syntax), which in turn I believe was heavily influenced by the now infamous [2006 Monokai theme for Textmate by Wimer Hazenberg](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).
 
 ![](https://raw.githubusercontent.com/jasonshanks/TaskPaper-Atom-One-Dark/master/Preview.png)
 
