@@ -54,7 +54,7 @@ Backup then replace the **theme.less** file located at:
 
 ## RELEASE NOTES
 
-2016-08-29:
+**2016-08-29:**
 
 Updated to reflect new naming & location conventions in TP 3.5 Preview:
 
@@ -70,13 +70,13 @@ Other tweaks:
 - reduced handle-border-width so they are more subtle when expanded.
 - brightened Caret color to be a bit more prevalent.
 
-2016-05-26:
+**2016-05-26:**
 
 - added new handle styles from 3.3
 - reduced the brightness of collapsed handles to project color as I think they stand out with the new style possibilities.
 - matched filtered handle style to the default tag color (and improved the less syntax by consolidating under @tag-color)
 
-2016-04-20:
+**2016-04-20:**
 
 Added new theme possibilities from 3.1 and 3.2:
 
@@ -96,7 +96,7 @@ Other tweaks:
 - Expanded Project styles to 4 levels with gradually reducing color fade and type size.
 - Added additional tag names to related functions (active, now, hot, priority, due)
 
-2016-03-17:
+**2016-03-17:**
 
 - forked from @pslobo's excellent code heist!
 - renamed the deprecated **user.less** filename to new **theme.less**
