@@ -6,49 +6,27 @@ A dark StyleSheet/Theme for [TaskPaper 3](http://taskpaper.com) heavily inspired
 
 ## Colours/Colors
 
-- <span style="color:hsl(187, 47%, 55%);">Fountain Blue</span>
+- _Fountain Blue_ for items tagged @next
 
-  for items tagged @next
+- _Malibu_ for URLs and Projects (gradually faded from Project levels 1-4)
 
-- <span style="color:hsl(207, 82%, 66%);">Malibu</span>
+- _Soft Purple_ for items tagged @waiting
 
-  for URLs and Projects (gradually faded from Project levels 1-4)
+- _Pistachio_ for items tagged @today, @active or @now (this is especially useful in conjunction with [this great script](http://support.hogbaysoftware.com/t/script-displaying-the-active-task-in-the-os-x-menu-bar/1290) by @complexpoint)
 
-- <span style="color:hsl(286, 60%, 67%);">Soft Purple</span>
+- _Froly_ for items tagged @due
 
-  for items tagged @waiting
+- _Sunset_ for items tagged @flag, @high, @hot, @priority(high) or @prio(1)
 
-- <span style="color:hsl(95, 38%, 62%);">Pistachio</span>
+- _Whiskey_ for vanilla tags
 
-  for items tagged @today, @active or @now (this is especially useful in conjunction with [this great script](http://support.hogbaysoftware.com/t/script-displaying-the-active-task-in-the-os-x-menu-bar/1290) by @complexpoint)
+- _Chalky_ for context tags
 
-- <span style="color:hsl(355, 65%, 65%);">Froly</span>
+- _Mischka_ for text
 
-  for items tagged @due
+- _Bright Gray_ for selections
 
-- <span style="color:hsl(5, 48%, 51%);">Sunset</span>
-
-  for items tagged @flag, @high, @hot, @priority(high) or @prio(1)
-
-- <span style="color:hsl(29, 54%, 61%);">Whiskey</span>
-
-  for vanilla tags
-
-- <span style="color:hsl(39, 67%, 69%);">Chalky</span>
-
-  for context tags
-
-- <span style="color:hsl(220, 14%, 71%);">Mischka</span>
-
-  for text
-
-- <span style="color:hsl(220, 13.29%, 28.04%);">Bright Gray</span>
-
-  for selections
-
-- <span style="color:hsl(220, 13%, 18%);">Ebony</span>
-
-  for background
+- _Ebony_ for background
 
 ## Other Style Features
 
@@ -82,11 +60,11 @@ Backup then replace the **theme.less** file located at:
 - create colour variations (first might re-instate Pedro's favoured Orange project titles)
 - add distinction between due and overdue?
 
-- <span style="text-decoration:line-through;">add paragraph spacing? @done</span>
+- add paragraph spacing? @done
 
-- <span style="text-decoration:line-through;">add subtle variation to Priority levels @done</span>
+- add subtle variation to Priority levels @done
 
-- <span style="text-decoration:line-through;">style the Sidebar if this becomes possible (white is really jarring against a dark theme, so I recommend hiding it and the Toolbar most of the time). @done</span>
+- style the Sidebar if this becomes possible (white is really jarring against a dark theme, so I recommend hiding it and the Toolbar most of the time). @done
 
 ## RELEASE NOTES
 
