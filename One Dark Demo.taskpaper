@@ -3,9 +3,10 @@ Adventuring-Part 1:
 	- Go North again to Forest Path. @next
 	- Go up the tree. 
 	- Get the Jewelled Egg. @high
-		This is an important step! You're definitely going to want this egg later. By the way, I like notes in smaller type, especially so they're not so overwhelming when they get long.
+		This is an important step! You're definitely going to want this egg later.
+		By the way: I like notes in smaller type, especially so they're not so overwhelming when they get long.
+		Or separated into multiple paragraphs like this!
 	- Go down, then north again to clearing.
-	- Get Leaves @search
 		reveals the grating.
 	- Drop the leaves @whatevs
 	- Go East, South, West to Behind the House.
@@ -25,3 +26,5 @@ Adventuring-Part 1:
 				- Put Egg in Trophy Case. @done(2016-04-20)
 SPOILER ALERT! Complete walkthrough within:
 	- just kidding. you actually have to play the rest of the game on your own :)
+
+Today @search(@today and not @done)

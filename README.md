@@ -6,15 +6,49 @@ A dark StyleSheet/Theme for [TaskPaper 3](http://taskpaper.com) heavily inspired
 
 ## Colours/Colors
 
-- _Fountain Blue_ for items tagged @next
-- _Malibu Blue_ for URLs and Projects (gradually faded from Project levels 1-4)
-- _Soft Purple_ for items tagged @waiting
-- _Pistachio Green_ for items tagged @today, @active or @now (this is especially useful in conjunction with [this great script](http://support.hogbaysoftware.com/t/script-displaying-the-active-task-in-the-os-x-menu-bar/1290) by @complexpoint)
-- _Froly Red_ for items tagged @due
-- _Sunset Red_ for items tagged @flag, @high, @hot, @priority(high) or @prio(1)
-- _Whisky Orange_ for vanilla tags
-- _Faded Chalky Orange_ for context tags
-- Text selections are a subtle mix of fore/background colors as in the original One Dark Atom theme
+- <span style="color:hsl(187, 47%, 55%);">Fountain Blue</span>
+
+  for items tagged @next
+
+- <span style="color:hsl(207, 82%, 66%);">Malibu</span>
+
+  for URLs and Projects (gradually faded from Project levels 1-4)
+
+- <span style="color:hsl(286, 60%, 67%);">Soft Purple</span>
+
+  for items tagged @waiting
+
+- <span style="color:hsl(95, 38%, 62%);">Pistachio</span>
+
+  for items tagged @today, @active or @now (this is especially useful in conjunction with [this great script](http://support.hogbaysoftware.com/t/script-displaying-the-active-task-in-the-os-x-menu-bar/1290) by @complexpoint)
+
+- <span style="color:hsl(355, 65%, 65%);">Froly</span>
+
+  for items tagged @due
+
+- <span style="color:hsl(5, 48%, 51%);">Sunset</span>
+
+  for items tagged @flag, @high, @hot, @priority(high) or @prio(1)
+
+- <span style="color:hsl(29, 54%, 61%);">Whiskey</span>
+
+  for vanilla tags
+
+- <span style="color:hsl(39, 67%, 69%);">Chalky</span>
+
+  for context tags
+
+- <span style="color:hsl(220, 14%, 71%);">Mischka</span>
+
+  for text
+
+- <span style="color:hsl(220, 13.29%, 28.04%);">Bright Gray</span>
+
+  for selections
+
+- <span style="color:hsl(220, 13%, 18%);">Ebony</span>
+
+  for background
 
 ## Other Style Features
 
@@ -48,11 +82,20 @@ Backup then replace the **theme.less** file located at:
 - create colour variations (first might re-instate Pedro's favoured Orange project titles)
 - add distinction between due and overdue?
 
-- add subtle variation to Priority levels @done
+- <span style="text-decoration:line-through;">add paragraph spacing? @done</span>
 
-- style the Sidebar if this becomes possible (white is really jarring against a dark theme, so I recommend hiding it and the Toolbar most of the time). @done
+- <span style="text-decoration:line-through;">add subtle variation to Priority levels @done</span>
+
+- <span style="text-decoration:line-through;">style the Sidebar if this becomes possible (white is really jarring against a dark theme, so I recommend hiding it and the Toolbar most of the time). @done</span>
 
 ## RELEASE NOTES
+
+**2016-09-03:**
+
+- Commented out the custom font-family by default. [I'm enamored lately with **San Francisco** for prose (current TP default) and [**Hack**](http://sourcefoundry.org/hack/) for code.] You can easily insert your current favourite typeface on line 2 and remove //comment.
+- reduced the multiple line height by .1 but still tighter than the default 1.3\. Largely because...
+- Notes Pro: added some more professional looking paragraph and line-spacing for notes, especially if they consist of multiple paragraphs. [Thanks @mylevelbest for bringing this to my attention].
+- increased contrast of selection color back to One Dark default of 10% lighter than background. I like the mixing of text/background idea but it lends to some subtle difference between task/note selection color (especially in future theme variants!)
 
 **2016-08-29:**
 
