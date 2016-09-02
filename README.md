@@ -6,27 +6,17 @@ A dark StyleSheet/Theme for [TaskPaper 3](http://taskpaper.com) heavily inspired
 
 ## Colours/Colors
 
-- _Fountain Blue_ for items tagged @next
-
+- _Fountain Blue_ for items tagged `@next`
 - _Malibu_ for URLs and Projects (gradually faded from Project levels 1-4)
-
-- _Soft Purple_ for items tagged @waiting
-
-- _Pistachio_ for items tagged @today, @active or @now (this is especially useful in conjunction with [this great script](http://support.hogbaysoftware.com/t/script-displaying-the-active-task-in-the-os-x-menu-bar/1290) by @complexpoint)
-
-- _Froly_ for items tagged @due
-
-- _Sunset_ for items tagged @flag, @high, @hot, @priority(high) or @prio(1)
-
+- _Soft Purple_ for items tagged `@waiting`
+- _Pistachio_ for items tagged `@today`, `@active` or `@now` (this is especially useful in conjunction with [this great script](http://support.hogbaysoftware.com/t/script-displaying-the-active-task-in-the-os-x-menu-bar/1290) by @complexpoint)
+- _Froly_ for items tagged `@due`
+- _Sunset_ for items tagged `@flag`, `@high`, `@hot`, `@priority(high)` or `@prio(1)`
 - _Whiskey_ for vanilla tags
-
 - _Chalky_ for context tags
-
 - _Mischka_ for text
-
 - _Bright Gray_ for selections
-
-- _Ebony_ for background
+- _Ebony_ for the background
 
 ## Other Style Features
 
@@ -36,7 +26,7 @@ A dark StyleSheet/Theme for [TaskPaper 3](http://taskpaper.com) heavily inspired
 - Tags are always dimmed in relation to task text.
 - Saved searches are a very subdued tone so as not to distract from the main list
 - Guide lines and item handles are slim, subdued and tinted a faded Malibu blue.
-- Paragraph spacing before and after Project titles is enhanced for clean separation.
+- Paragraph spacing before and after Project titles and within notes is enhanced for clean separation.
 
 ## Installation
 
@@ -74,6 +64,7 @@ Backup then replace the **theme.less** file located at:
 - reduced the multiple line height by .1 but still tighter than the default 1.3\. Largely because...
 - Notes Pro: added some more professional looking paragraph and line-spacing for notes, especially if they consist of multiple paragraphs. [Thanks @mylevelbest for bringing this to my attention].
 - increased contrast of selection color back to One Dark default of 10% lighter than background. I like the mixing of text/background idea but it lends to some subtle difference between task/note selection color (especially in future theme variants!)
+- Reduced opacity of guide-lines. Because...subtle :)
 
 **2016-08-29:**
 
