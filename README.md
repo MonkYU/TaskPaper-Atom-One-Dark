@@ -58,6 +58,13 @@ Backup then replace the **theme.less** file located at:
 
 ## RELEASE NOTES
 
+**2018-10-07:**
+
+*It's been awhile! Note: this is just a quick maintenance fix while I'm preparing to release a new Light/Dark version compatible with MacOS Mojave and TaskPaper 3.8. It's going to be much improved, I've learned a lot re design/coding since 2016!*
+
+- fixed all font sizes to dynamically resize with user's zoom scaling setting.
+- brought up the opacity and size of notes and done tasks/tags. Either I'm not sure what we were thinking before or my eyes are getting older...I suspect both!
+
 **2016-09-03:**
 
 - Commented out the custom font-family by default. [I'm enamored lately with **San Francisco** for prose (current TP default) and [**Hack**](http://sourcefoundry.org/hack/) for code.] You can easily insert your current favourite typeface on line 2 and remove //comment.
